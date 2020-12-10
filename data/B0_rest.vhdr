@@ -1,0 +1,163 @@
+BrainVision Data Exchange Header File Version 1.0
+; Data created by the BrainVision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=B0_rest.eeg
+MarkerFile=B0_rest.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=37
+; Sampling interval in microseconds
+SamplingInterval=200
+
+[Binary Infos]
+BinaryFormat=INT_16
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=Fp1,,0.5,µV
+Ch2=Fp2,,0.5,µV
+Ch3=F3,,0.5,µV
+Ch4=F4,,0.5,µV
+Ch5=C3,,0.5,µV
+Ch6=C4,,0.5,µV
+Ch7=P3,,0.5,µV
+Ch8=P4,,0.5,µV
+Ch9=O1,,0.5,µV
+Ch10=O2,,0.5,µV
+Ch11=F7,,0.5,µV
+Ch12=F8,,0.5,µV
+Ch13=T7,,0.5,µV
+Ch14=T8,,0.5,µV
+Ch15=P7,,0.5,µV
+Ch16=P8,,0.5,µV
+Ch17=Fz,,0.5,µV
+Ch18=Cz,,0.5,µV
+Ch19=Pz,,0.5,µV
+Ch20=Oz,,0.5,µV
+Ch21=FC1,,0.5,µV
+Ch22=FC2,,0.5,µV
+Ch23=CP1,,0.5,µV
+Ch24=CP2,,0.5,µV
+Ch25=FC5,,0.5,µV
+Ch26=FC6,,0.5,µV
+Ch27=CP5,,0.5,µV
+Ch28=CP6,,0.5,µV
+Ch29=TP9,,0.5,µV
+Ch30=TP10,,0.5,µV
+Ch31=POz,,0.5,µV
+Ch32=ECG,,0.5,µV
+Ch33=CWL1,,0.5,µV
+Ch34=CWL2,,0.5,µV
+Ch35=CWL3,,0.5,µV
+Ch36=CWL4,,0.5,µV
+Ch37=CWL5,,0.5,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.23.0001
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 37
+Sampling Rate [Hz]: 5000
+Sampling Interval [µS]: 200
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Series Res. [kOhm] Gradient         Offset
+1     Fp1         1                0.5 µV             10              250              Off               15                 
+2     Fp2         2                0.5 µV             10              250              Off               15                 
+3     F3          3                0.5 µV             10              250              Off               15                 
+4     F4          4                0.5 µV             10              250              Off               15                 
+5     C3          5                0.5 µV             10              250              Off               15                 
+6     C4          6                0.5 µV             10              250              Off               15                 
+7     P3          7                0.5 µV             10              250              Off               15                 
+8     P4          8                0.5 µV             10              250              Off               15                 
+9     O1          9                0.5 µV             10              250              Off               15                 
+10    O2          10               0.5 µV             10              250              Off               15                 
+11    F7          11               0.5 µV             10              250              Off               15                 
+12    F8          12               0.5 µV             10              250              Off               15                 
+13    T7          13               0.5 µV             10              250              Off               15                 
+14    T8          14               0.5 µV             10              250              Off               15                 
+15    P7          15               0.5 µV             10              250              Off               15                 
+16    P8          16               0.5 µV             10              250              Off               15                 
+17    Fz          17               0.5 µV             10              250              Off               15                 
+18    Cz          18               0.5 µV             10              250              Off               15                 
+19    Pz          19               0.5 µV             10              250              Off               15                 
+20    Oz          20               0.5 µV             10              250              Off               15                 
+21    FC1         21               0.5 µV             10              250              Off               15                 
+22    FC2         22               0.5 µV             10              250              Off               15                 
+23    CP1         23               0.5 µV             10              250              Off               15                 
+24    CP2         24               0.5 µV             10              250              Off               15                 
+25    FC5         25               0.5 µV             10              250              Off               15                 
+26    FC6         26               0.5 µV             10              250              Off               15                 
+27    CP5         27               0.5 µV             10              250              Off               15                 
+28    CP6         28               0.5 µV             10              250              Off               15                 
+29    TP9         29               0.5 µV             10              250              Off               15                 
+30    TP10        30               0.5 µV             10              250              Off               15                 
+31    POz         31               0.5 µV             10              250              Off               15                 
+32    ECG         32               0.5 µV             10              250              Off               25                 
+33    CWL1        33               0.5 µV             10              250              Off                0                 
+34    CWL2        34               0.5 µV             10              250              Off                0                 
+35    CWL3        35               0.5 µV             10              250              Off                0                 
+36    CWL4        36               0.5 µV             10              250              Off                0                 
+37    CWL5        37               0.5 µV             10              250              Off                0                 
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+Data Electrodes Selected Impedance Measurement Range: 0 - 50 kOhm
+Ground Electrode Selected Impedance Measurement Range: 0 - 10 kOhm
+Reference Electrode Selected Impedance Measurement Range: 0 - 10 kOhm
+Impedance [kOhm] at 15:17:11 :
+Fp1:          0
+Fp2:          5
+F3:           0
+F4:           1
+C3:           1
+C4:           6
+P3:           1
+P4:          51
+O1:          23
+O2:          14
+F7:           0
+F8:           1
+T7:           0
+T8:           2
+P7:           6
+P8:          12
+Fz:          25
+Cz:           8
+Pz:          11
+Oz:          18
+FC1:          0
+FC2:          3
+CP1:          3
+CP2:         33
+FC5:          0
+FC6:          3
+CP5:          1
+CP6:          9
+TP9:          2
+TP10:         3
+POz:         11
+ECG:          2
+CWL1+:        4
+CWL1-:        4
+CWL2+:        4
+CWL2-:        4
+CWL3+:        4
+CWL3-:        5
+CWL4+:        4
+CWL4-:        4
+Ref:          0
+Gnd:         60

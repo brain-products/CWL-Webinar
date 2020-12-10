@@ -1,0 +1,69 @@
+BrainVision Data Exchange Marker File Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=B0_rest.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20200927153316558112
+Mk2=SyncStatus,Sync On,101,1,0
+Mk3=SyncStatus,Sync On,9201,1,0
+Mk4=SyncStatus,Sync On,19201,1,0
+Mk5=SyncStatus,Sync On,29201,1,0
+Mk6=SyncStatus,Sync On,39201,1,0
+Mk7=SyncStatus,Sync On,49201,1,0
+Mk8=SyncStatus,Sync On,59201,1,0
+Mk9=SyncStatus,Sync On,69201,1,0
+Mk10=Comment,left,72601,1,0
+Mk11=SyncStatus,Sync On,79201,1,0
+Mk12=SyncStatus,Sync On,89201,1,0
+Mk13=Comment,right,94301,1,0
+Mk14=SyncStatus,Sync On,99201,1,0
+Mk15=SyncStatus,Sync On,109201,1,0
+Mk16=Comment,up,113701,1,0
+Mk17=SyncStatus,Sync On,119201,1,0
+Mk18=Comment,down,126901,1,0
+Mk19=SyncStatus,Sync On,129201,1,0
+Mk20=SyncStatus,Sync On,139201,1,0
+Mk21=Comment,close,142201,1,0
+Mk22=Comment,close,143101,1,0
+Mk23=SyncStatus,Sync On,149201,1,0
+Mk24=SyncStatus,Sync On,159201,1,0
+Mk25=Comment,open,163401,1,0
+Mk26=SyncStatus,Sync On,169201,1,0
+Mk27=SyncStatus,Sync On,179201,1,0
+Mk28=SyncStatus,Sync On,189201,1,0
+Mk29=SyncStatus,Sync On,199201,1,0
+Mk30=SyncStatus,Sync On,209201,1,0
+Mk31=SyncStatus,Sync On,219201,1,0
+Mk32=Comment,close,222601,1,0
+Mk33=SyncStatus,Sync On,229201,1,0
+Mk34=SyncStatus,Sync On,239201,1,0
+Mk35=SyncStatus,Sync On,249201,1,0
+Mk36=SyncStatus,Sync On,259201,1,0
+Mk37=SyncStatus,Sync On,269201,1,0
+Mk38=Comment,open,275401,1,0
+Mk39=SyncStatus,Sync On,279201,1,0
+Mk40=SyncStatus,Sync On,289201,1,0
+Mk41=SyncStatus,Sync On,299201,1,0
+Mk42=SyncStatus,Sync On,309201,1,0
+Mk43=SyncStatus,Sync On,319201,1,0
+Mk44=SyncStatus,Sync On,329201,1,0
+Mk45=SyncStatus,Sync On,339201,1,0
+Mk46=SyncStatus,Sync On,349201,1,0
+Mk47=Comment,close,357701,1,0
+Mk48=SyncStatus,Sync On,359201,1,0
+Mk49=SyncStatus,Sync On,369201,1,0
+Mk50=SyncStatus,Sync On,379201,1,0
+Mk51=SyncStatus,Sync On,389201,1,0
+Mk52=SyncStatus,Sync On,399201,1,0
+Mk53=SyncStatus,Sync On,409201,1,0
+Mk54=Comment,open,419201,1,0
+Mk55=SyncStatus,Sync On,419201,1,0
+Mk56=SyncStatus,Sync On,429201,1,0
+Mk57=SyncStatus,Sync On,439201,1,0
+Mk58=SyncStatus,Sync On,449201,1,0
